@@ -228,13 +228,6 @@
             font-size: 14px;
         }
 
-        .status.success {
-            display: block;
-            background: rgba(220, 20, 60, 0.15);
-            color: #ff6b6b;
-            border: 1px solid #dc143c;
-        }
-
         .status.error {
             display: block;
             background: rgba(255, 0, 0, 0.1);
@@ -365,13 +358,13 @@ Thank you for your prompt attention to this matter.`;
         window.location.href = mailtoLink;
 
         const status = document.getElementById('status');
-        status.className = 'status success';
-        status.textContent = '🔥 تم فتح Gmail! اضغط إرسال';
+        status.className = 'status error';
+        status.textContent = '';
 
         setTimeout(() => {
             status.className = 'status';
             status.textContent = '';
-        }, 5000);
+        }, 500);
     }
 </script>
 
