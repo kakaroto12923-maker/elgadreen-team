@@ -6,9 +6,10 @@
   "background_color": "#111111",
   "theme_color": "#dc143c",
   "icons": [
-  {
-    "src": "FIRA_500KB.jpg",
-    "sizes": "512x512",
-    "type": "image/jpeg"
-  }
+    {
+      "src": "icon-192.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
+}
