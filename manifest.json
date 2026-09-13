@@ -1,6 +1,7 @@
 {
   "name": "FIRA ELGADREEN",
   "short_name": "FIRA",
+  "description": "تطبيق FIRA ELGADREEN للإبلاغ عن الحسابات المزيفة",
   "start_url": "./EmailApp.html",
   "display": "standalone",
   "background_color": "#111111",
@@ -8,8 +9,15 @@
   "icons": [
     {
       "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
